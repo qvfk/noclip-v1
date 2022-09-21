@@ -1,9 +1,6 @@
--- Noclip by Alumark on v3rmilion
--- Press Q to activate
+local StealthMode = false -- anti cheat checker also sipi hot
 
-local StealthMode = false -- If game has an anticheat that checks the logs
-
-local Indicator
+local Indicator  --made by daddy
 
 if not StealthMode then
     local ScreenGui = Instance.new("ScreenGui", game.CoreGui)
